@@ -1,0 +1,63 @@
+# -----------------------------
+# Python cache / compiled files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+env/
+.venv/
+
+# -----------------------------
+# Model files (we use Google Drive, so IGNORE these locally)
+# -----------------------------
+*.pth
+*.pt
+*.h5
+*.onnx
+*.weights
+models/
+weights/
+checkpoints/
+
+# -----------------------------
+# Large datasets
+# -----------------------------
+data/
+dataset/
+datasets/
+images/
+*.zip
+*.tar
+*.jpg
+*.png
+*.jpeg
+*.csv
+
+# -----------------------------
+# OS & Editor Junk
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Secret keys / environment variables
+# -----------------------------
+.env
+.env.*
+*.env
+secrets.json
+config.json
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+logs/
